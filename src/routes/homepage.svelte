@@ -9,7 +9,7 @@
 
 <div class="flex flex-row items-center w-full h-full">
     <div class="basis-1/12  h-screen lg:h-full"></div>
-    <div class="lg:basis-3/6 h-full basis-11/12">
+    <div class="lg:basis-5/12 h-full basis-11/12">
         <p class="text-rose-50 text-6xl subpixel-antialiased font-bold tracking-wide">Hey, I'm Riya.</p>
         <br/>
         <p class="pt-3 text-rose-50 text-4xl subpixel-antialiased font-light tracking-wide">Aspiring computer scientist at UIUC</p>
@@ -29,7 +29,7 @@
             </button>
         </div>
      </div>
-    <div class="lg:basis-5/12 h-full basis-0">
+    <div class="lg:basis-6/12 h-full basis-0">
         <!-- svelte-ignore a11y-missing-attribute -->
         <img class="pfp" src={Picture} />
     </div>
@@ -40,6 +40,17 @@
         height: 100vh;
         width: 100%;
         object-fit: cover;
+        border-radius: 50% 0 0 50%;
+        transform: translate3d(5%, -3%, -3%);
+    }
+    @media (min-width: 1024px) { 
+        .pfp {
+            
+            border-left: 15px solid #ffe4e6;
+            border-top: 0px solid #ffe4e6;
+            border-right: 0px solid #ffe4e6;
+            border-bottom: 0px solid #ffe4e6;
+        }
     }
 
 </style>
