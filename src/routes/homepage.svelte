@@ -8,8 +8,8 @@
 "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <div class="flex flex-row items-center w-full h-full">
-    <div class="basis-1/12 h-full"></div>
-    <div class="basis-3/6 h-full md:basis-11/12">
+    <div class="basis-1/12  h-screen lg:h-full"></div>
+    <div class="lg:basis-3/6 h-full basis-11/12">
         <p class="text-rose-50 text-6xl subpixel-antialiased font-bold tracking-wide">Hey, I'm Riya.</p>
         <br/>
         <p class="pt-3 text-rose-50 text-4xl subpixel-antialiased font-light tracking-wide">Aspiring computer scientist at UIUC</p>
@@ -29,7 +29,7 @@
             </button>
         </div>
      </div>
-    <div class="basis-5/12 h-full md:basis-0">
+    <div class="lg:basis-5/12 h-full basis-0">
         <!-- svelte-ignore a11y-missing-attribute -->
         <img class="pfp" src={Picture} />
     </div>
@@ -37,7 +37,7 @@
   
 <style>
     .pfp {
-        height: 100%;
+        height: 100vh;
         width: 100%;
         object-fit: cover;
     }

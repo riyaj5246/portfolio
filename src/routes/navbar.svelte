@@ -9,21 +9,21 @@
       showMenu = !showMenu;
     }
   </script>
-  
+
   <div class="outerBar">
     <div class="navbar"> <!-- otherwise bg-rose-400-->
       <nav
-        class="container px-10 py-5 mx-auto md:flex md:justify-between md:items-center"
+              class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
       >
-        <div class="flex md:items-center justify-between ">
+        <div class="flex items-center justify-between">
           <a
-            class="md:text-3xl font-semibold text-rose-50 text-2xl hover:text-rose-200"
+            class="md:text-xl font-bold text-rose-50 text-2xl hover:text-rose-200"
             href="/home"
             >Riya Jain
           </a>
           <!-- Mobile menu button -->
           <!-- svelte-ignore a11y-click-events-have-key-events -->
-          <div on:click={toggleNavbar} class="md:flex hidden">
+          <div on:click={toggleNavbar} class="md:hidden flex">
             <button
               type="button"
               class="text-rose-50 hover:text-rose-200 focus:outline-none focus:text-rose-50"
@@ -34,12 +34,12 @@
             </button>
           </div>
         </div>
-  
+
         <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
         <div
-          class="md:flex-col md:mt-8 space-y-4 md:flex space-y-0 flex-row items-center space-x-10 mt-0 md:{showMenu
-            ? 'flex'
-            : 'hidden'}"
+                class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0 {showMenu
+          ? 'flex'
+          : 'hidden'}"
         >
           <a class=" text-lg font-light text-rose-50 hover:text-rose-200 " href="/home">Home</a>
           <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/about">About</a>

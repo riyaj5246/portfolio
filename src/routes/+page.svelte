@@ -5,13 +5,25 @@
 <script>
     import Navbar from "./navbar.svelte";
     import Homepage from "./homepage.svelte";
+    import Picture from "../assets/profile.png";
 </script>
 
-<div class="bg-neutral-700">
-    <Navbar/>
-    <Homepage/>
+<Navbar/>
+
+<div class="riya">
+<Homepage/>
 </div>
 
 <style>
-
+.riya {
+    background-color: #404040;
+}
+@media (max-width: 1024px) { 
+    .riya {
+        background-image: url("src/assets/pfp_dark.png");
+        background-size:cover;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+ }
 </style>
