@@ -6,12 +6,14 @@
     import Navbar from "./navbar.svelte";
     import Homepage from "./homepage.svelte";
     import Picture from "../assets/profile.png";
+    import About from "./about.svelte";
 </script>
 
 <Navbar/>
 
 <div class="riya">
 <Homepage/>
+<About/>
 </div>
 
 <style>

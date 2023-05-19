@@ -41,7 +41,7 @@
           ? 'flex'
           : 'hidden'}"
         >
-          <a class=" text-lg font-light text-rose-50 hover:text-rose-200 " href="/home">Home</a>
+          <a class=" text-lg font-light text-rose-50 hover:text-rose-200 " href="/">Home</a>
           <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/about">About</a>
           <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/experience">Experience</a>
           <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/projects">Projects</a>
@@ -64,5 +64,6 @@
     .outerBar {
       width: 100%;
       position: fixed;
+      z-index: 10;
     }
   </style>

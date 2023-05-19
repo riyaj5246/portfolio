@@ -10,9 +10,9 @@
 <div class="flex flex-row items-center w-full h-full">
     <div class="basis-1/12  h-screen lg:h-full"></div>
     <div class="lg:basis-5/12 h-full basis-11/12">
-        <p class="text-rose-50 text-6xl subpixel-antialiased font-bold tracking-wide">Hey, I'm Riya.</p>
+        <p class="text-rose-100 text-7xl subpixel-antialiased font-bold tracking-wide">Riya Jain</p>
         <br/>
-        <p class="pt-3 text-rose-50 text-4xl subpixel-antialiased font-light tracking-wide">Aspiring computer scientist at UIUC</p>
+        <p class="pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide">Aspiring computer scientist at UIUC</p>
         <br/>
         <div class="flex flex-row">
             <button type="button" onclick="window.location.href='https://github.com/riyaj5246';" class="text-white bg-gradient-to-r from-rose-300 via-rose-500 to-rose-700 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-rose-300 dark:focus:ring-rose-800 shadow-lg shadow-rose-500/50 dark:shadow-lg dark:shadow-rose-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2">
@@ -42,15 +42,18 @@
         object-fit: cover;
         border-radius: 50% 0 0 50%;
         transform: translate3d(5%, -3%, -3%);
+
     }
-    @media (min-width: 1024px) { 
+    @media only screen and (min-device-width: 1024px) { 
         .pfp {
             
             border-left: 15px solid #ffe4e6;
             border-top: 0px solid #ffe4e6;
             border-right: 0px solid #ffe4e6;
             border-bottom: 0px solid #ffe4e6;
+
         }
+
     }
 
 </style>
