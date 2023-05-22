@@ -7,13 +7,17 @@
     import Homepage from "./homepage.svelte";
     import Picture from "../assets/profile.png";
     import About from "./about.svelte";
+    import Experience from "./experience.svelte"
 </script>
 
 <Navbar/>
 
-<div class="riya">
-<Homepage/>
+<div>
+    <div class="riya">
+        <Homepage/>
+    </div>
 <About/>
+<Experience/>
 </div>
 
 <style>
@@ -24,7 +28,8 @@
     .riya {
         background-image: url("src/assets/pfp_dark.png");
         background-size:cover;
-        background-position: 50%;
+        background-position-y: 1000%;
+        background-position-x: 50% ;
         background-repeat: no-repeat;
     }
  }
