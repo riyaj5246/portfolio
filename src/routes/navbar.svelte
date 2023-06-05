@@ -3,11 +3,20 @@
   </h1> -->
 
   <script>
+
     let showMenu = false;
   
     function toggleNavbar() {
       showMenu = !showMenu;
     }
+
+    function scrollIntoView({ target }) {
+      const el = document.querySelector(target.getAttribute('href'));
+      if (!el) return;
+      el.scrollIntoView({
+        behavior: 'smooth'
+      });
+  }
   </script>
 
   <div class="outerBar">
@@ -41,10 +50,10 @@
           ? 'flex'
           : 'hidden'}"
         >
-          <a class=" text-lg font-light text-rose-50 hover:text-rose-200 " href="/">Home</a>
-          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/about">About</a>
-          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/experience">Experience</a>
-          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="/projects">Projects</a>
+          <a class=" text-lg font-light text-rose-50 hover:text-rose-200 " href="#homepage" on:click|preventDefault={scrollIntoView}>Home</a>
+          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="#about" on:click|preventDefault={scrollIntoView}>About</a>
+          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="#experience" on:click|preventDefault={scrollIntoView}>Experience</a>
+          <a class=" text-lg font-light text-rose-50 hover:text-rose-200" href="#projects" on:click|preventDefault={scrollIntoView} >Projects</a>
         </div>
       </nav>
     </div>

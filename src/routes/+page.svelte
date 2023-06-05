@@ -8,16 +8,26 @@
     import Picture from "../assets/profile.png";
     import About from "./about.svelte";
     import Experience from "./experience.svelte"
+    import Projects from "./projects.svelte"
 </script>
 
 <Navbar/>
 
 <div>
+    <section id="homepage">
     <div class="riya">
         <Homepage/>
     </div>
+    </section>
+    <section id = "about">
 <About/>
+</section>
+<section id="experience">
 <Experience/>
+</section>
+<section id="projects">
+<Projects/>
+</section>
 </div>
 
 <style>
