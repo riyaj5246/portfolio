@@ -2648,21 +2648,21 @@ const Projects = create_ssr_component(($$result, $$props, $$bindings, slots) => 
       name: "DermaVision",
       description: "A Swift app to increase accessibility to medical knowledge on skin cancer with a machine learning algorithm to detect healthy skin, benign tumors, and malignant tumors. Includes a UV Index Forecast, skin health log, and location-based sunscreen reminders.",
       skills: "Swift | SwiftUI | Firebase | TensorflowLite | Python | Kaggle | Git | Figma",
-      img_path: "src/assets/dermavision.png",
+      img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/dermavision.png?alt=media&token=e79521c5-e928-4e16-a123-994903fb0741&_gl=1*94w30t*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTQ5Ny4wLjAuMA..",
       title_size: "5xl"
     },
     {
       name: "BookWorm",
       description: "A platform to give users book recommendations based on genre and topic preferences. Users can save books they are interested in reading based on our curated recommendation algorithm and manual searching. ",
       skills: " React.JS  |  Vite  |  TypeScript | Auth0  |  Yarn  |  Express  |  ChakraUI | Git ",
-      img_path: "src/assets/bookworm.png",
+      img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/bookworm.png?alt=media&token=7bbbb3c0-f740-46e0-8c45-d3ed54ddbd02&_gl=1*14yt5wz*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTQ3MS4wLjAuMA..",
       title_size: "5xl"
     },
     {
       name: "Covid-19 Simulator",
       description: "A live simulation showcasing the contraction, spread, vaccine & natural immunization, and death due to COVID-19 within a confined and small population. Displays information with a dynamic colored grid, multiple graphs, and medical forms for each individual.",
       skills: " Java | JavaFX | JSON | Git",
-      img_path: "src/assets/covid.png",
+      img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/covid.png?alt=media&token=180caa98-183f-49e2-aa21-a7531d2fbb8c&_gl=1*oqulbw*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTM3NS4wLjAuMA..",
       title_size: "4xl"
     }
   ];
