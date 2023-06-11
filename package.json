@@ -16,6 +16,7 @@
     "postcss-load-config": "^4.0.1",
     "svelte": "^3.54.0",
     "svelte-preprocess": "^4.10.7",
+    "svelte-swipe": "^1.9.2",
     "tailwindcss": "^3.1.5",
     "tslib": "^2.4.1",
     "typescript": "^4.9.3",
@@ -23,12 +24,12 @@
   },
   "type": "module",
   "dependencies": {
-    "@popperjs/core": "^2.11.7",
+    "@popperjs/core": "^2.11.8",
     "@svelteuidev/composables": "^0.12.1",
     "@svelteuidev/core": "^0.12.1",
     "classnames": "^2.3.2",
     "flowbite": "^1.6.5",
-    "flowbite-svelte": "^0.36.2",
+    "flowbite-svelte": "^0.36.5",
     "rollup-plugin-css-only": "^4.3.0",
     "svelte-swiper": "^1.0.1",
     "swiper": "^9.3.2"

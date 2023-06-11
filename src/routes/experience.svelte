@@ -106,7 +106,7 @@ teal 400: 4fd1c5
 <style>
 
 .experience {
-    background-color: rgba(64, 64, 64, 1);
+    background-color: rgb(64, 64, 64);
     height: auto;
 
 }
