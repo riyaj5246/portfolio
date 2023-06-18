@@ -68,7 +68,6 @@
         backdrop-filter: blur(9.9px);
         -webkit-backdrop-filter: blur(9.9px);
         border: 1px solid rgba(245, 62, 106, 0.35);
-        width: 100%;
     }
     .outerBar {
       width: 100%;

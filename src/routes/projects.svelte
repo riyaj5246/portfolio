@@ -133,11 +133,11 @@
  <div class="flex-col basis-10/12">
     {#each project_info as project, i}
     <div class= "px-28 py-10 text-center">
-        <PCard name={project_info[i].name} 
-        description={project_info[i].description}
-        skills={project_info[i].skills}
-        img_path={project_info[i].img_path}
-        title_size={project_info[i].title_size}/>
+            <PCard name={project_info[i].name} 
+            description={project_info[i].description}
+            skills={project_info[i].skills}
+            img_path={project_info[i].img_path}
+            title_size={project_info[i].title_size}/>
      </div>
     {/each}
 </div>

@@ -4,7 +4,7 @@ import { createStitches, defaultThemeMap } from "@stitches/core";
 import "classnames";
 const navbar_svelte_svelte_type_style_lang = "";
 const css$a = {
-  code: ".navbar.svelte-e512n{background:rgba(221, 86, 94, 1);border-radius:0px;box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter:blur(9.9px);-webkit-backdrop-filter:blur(9.9px);border:1px solid rgba(245, 62, 106, 0.35);width:100%}.outerBar.svelte-e512n{width:100%;position:fixed;z-index:10}",
+  code: ".navbar.svelte-wp9iam{background:rgba(221, 86, 94, 1);border-radius:0px;box-shadow:0 4px 30px rgba(0, 0, 0, 0.1);backdrop-filter:blur(9.9px);-webkit-backdrop-filter:blur(9.9px);border:1px solid rgba(245, 62, 106, 0.35)}.outerBar.svelte-wp9iam{width:100%;position:fixed;z-index:10}",
   map: null
 };
 const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -13,7 +13,7 @@ const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
   
 
-  <div class="${"outerBar svelte-e512n"}"><div class="${"navbar svelte-e512n"}">
+  <div class="${"outerBar svelte-wp9iam"}"><div class="${"navbar svelte-wp9iam"}">
       <nav class="${"container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"}"><div class="${"flex items-center justify-between"}"><a class="${"md:text-xl font-bold text-rose-50 text-2xl hover:text-rose-200"}" href="${"/home"}">Riya Jain
           </a>
           
@@ -27,7 +27,7 @@ const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
           <a class="${"text-lg font-light text-rose-50 hover:text-rose-200"}" href="${"#projects"}">Projects</a></div></nav></div>
   </div>`;
 });
-const Picture = "/_app/immutable/assets/profile.7bd68bf6.png";
+const Picture = "/_app/immutable/assets/profile.45cc0153.png";
 const homepage_svelte_svelte_type_style_lang = "";
 const css$9 = {
   code: ".pfp.svelte-1kgd3dr{height:100vh;width:100%;-o-object-fit:cover;object-fit:cover;border-radius:50% 0 0 50%;transform:translate3d(5%, -3%, -3%)}@media only screen and (min-device-width: 1024px){.pfp.svelte-1kgd3dr{border-left:15px solid #ffe4e6;border-top:0px solid #ffe4e6;border-right:0px solid #ffe4e6;border-bottom:0px solid #ffe4e6}}",
@@ -2590,7 +2590,7 @@ const Pcard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   
     <div class="${"flex flex-horizontal pt-10 pl-10 pr-10"}"><div class="${"basis-2/4 mx-5 mt-5"}"><img class="${"w-max h-max border-normal rounded-md border-rose-400 border-4 pic"}"${add_attribute("src", img_path, 0)} alt="${"None"}"></div>
     <div class="${"basis-2/4 mx-5"}"><h5 class="${"mb-7 text-" + escape(title_size, true) + " font-bold tracking-normal text-rose-100 dark:text-rose-100 svelte-1mu2qt9"}">${escape(name)}</h5>
-        <p class="${"my-5 text-xl font-normal text-rose-100 dark:text-rose-100 leading-relaxed "}">${escape(description)}</p></div></div>
+        <p class="${"my-5 text-xl font-normal text-rose-100 dark:text-rose-100 leading-normal"}">${escape(description)}</p></div></div>
     <p class="${"py-10 text-xl text-teal-400 italic dark:text-teal-400 font-medium tracking-wider"}">${escape(skills)}</p>
 </div>`;
 });
@@ -2766,7 +2766,7 @@ ${validate_component(MediaQuery, "MediaQuery").$$render(
 });
 const _page_svelte_svelte_type_style_lang = "";
 const css = {
-  code: '.riya.svelte-qb0czp{background-color:#404040}@media(max-width: 1024px){.riya.svelte-qb0czp{background-image:url("src/assets/pfp_dark.png");background-size:cover;background-position-y:1000%;background-position-x:50% ;background-repeat:no-repeat}}',
+  code: '.riya.svelte-d1ojbo{background-color:#404040}@media(max-width: 1024px){.riya.svelte-d1ojbo{background-image:url("https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/pfp_dark_unused.png?alt=media&token=becc3a81-680d-4320-a774-b93b2cb35fc6");background-size:cover;background-position-x:50% ;background-repeat:no-repeat}}',
   map: null
 };
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
@@ -2777,7 +2777,8 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 
 ${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
-<div><section id="${"homepage"}"><div class="${"riya svelte-qb0czp"}">${validate_component(Homepage, "Homepage").$$render($$result, {}, {}, {})}</div></section>
+
+<div class="${"overflow-y-hidden"}"><section id="${"homepage"}"><div class="${"riya svelte-d1ojbo"}">${validate_component(Homepage, "Homepage").$$render($$result, {}, {}, {})}</div></section>
     <section id="${"about"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>
 <section id="${"experience"}">${validate_component(Experience, "Experience").$$render($$result, {}, {}, {})}</section>
 <section id="${"projects"}">${validate_component(Projects, "Projects").$$render($$result, {}, {}, {})}</section>

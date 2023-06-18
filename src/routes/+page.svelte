@@ -13,7 +13,8 @@
 
 <Navbar/>
 
-<div>
+
+<div class="overflow-y-hidden">
     <section id="homepage">
     <div class="riya">
         <Homepage/>
