@@ -14,7 +14,7 @@
 <Navbar/>
 
 
-<div class="overflow-y-hidden">
+<div class="overflow-hidden">
     <section id="homepage">
     <div class="riya">
         <Homepage/>
