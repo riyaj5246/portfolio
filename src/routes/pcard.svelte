@@ -16,7 +16,7 @@
     </div>
     <div class="basis-2/4 mx-5">
         <h5 class="mb-7 text-{title_size} font-bold tracking-normal text-rose-100 dark:text-rose-100">{name}</h5>
-        <p class="my-5 text-xl font-normal text-rose-100 dark:text-rose-100 leading-relaxed ">{description}       </p>
+        <p class="my-5 text-xl font-normal text-rose-100 dark:text-rose-100 leading-normal">{description}       </p>
     </div>
     </div>
     <p class="py-10 text-xl text-teal-400 italic dark:text-teal-400 font-medium tracking-wider">{skills}

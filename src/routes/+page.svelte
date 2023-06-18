@@ -36,9 +36,9 @@
 }
 @media (max-width: 1024px) { 
     .riya {
-        background-image: url("src/assets/pfp_dark.png");
+        background-image: url("https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/pfp_dark_unused.png?alt=media&token=becc3a81-680d-4320-a774-b93b2cb35fc6");
         background-size:cover;
-        background-position-y: 1000%;
+        /* background-position-y: 1000%; */
         background-position-x: 50% ;
         background-repeat: no-repeat;
     }
