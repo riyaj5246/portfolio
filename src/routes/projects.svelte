@@ -41,7 +41,13 @@
     description: "A live simulation showcasing the contraction, spread, vaccine & natural immunization, and death due to COVID-19 within a confined and small population. Displays information with a dynamic colored grid, multiple graphs, and medical forms for each individual.",
     skills: " Java | JavaFX | JSON | Git",
     img_path:"https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/covid.png?alt=media&token=180caa98-183f-49e2-aa21-a7531d2fbb8c&_gl=1*oqulbw*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTM3NS4wLjAuMA..",  
-    title_size: "4xl"}
+    title_size: "4xl"}, 
+
+    // {name: "Aerocle",
+    // description: ".",
+    // skills: " Vue.JS | Django | Javascript | Python | Tailwind | HTML | Git",
+    // img_path:"https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/covid.png?alt=media&token=180caa98-183f-49e2-aa21-a7531d2fbb8c&_gl=1*oqulbw*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTM3NS4wLjAuMA..",  
+    // title_size: "5xl"}
     ]
 
 </script>

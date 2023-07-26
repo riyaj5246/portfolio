@@ -292,8 +292,8 @@ export {
   is_void as q,
   set_store_value as r,
   setContext as s,
-  createEventDispatcher as t,
-  onDestroy as u,
+  each as t,
+  createEventDispatcher as u,
   validate_component as v,
-  each as w
+  onDestroy as w
 };

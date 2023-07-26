@@ -1,4 +1,4 @@
-import { c as create_ssr_component, e as escape, d as add_attribute, l as listen, f as bubble, p as prevent_default, h as stop_propagation, g as getContext, i as compute_rest_props, j as get_current_component, k as spread, o as escape_object, q as is_void, v as validate_component, m as missing_component, b as subscribe, s as setContext, r as set_store_value, t as createEventDispatcher, u as onDestroy, w as each } from "../../chunks/index2.js";
+import { c as create_ssr_component, e as escape, d as add_attribute, l as listen, f as bubble, p as prevent_default, h as stop_propagation, g as getContext, i as compute_rest_props, j as get_current_component, k as spread, o as escape_object, q as is_void, v as validate_component, m as missing_component, b as subscribe, s as setContext, r as set_store_value, t as each, u as createEventDispatcher, w as onDestroy } from "../../chunks/index2.js";
 import { w as writable } from "../../chunks/index.js";
 import { createStitches, defaultThemeMap } from "@stitches/core";
 import "classnames";
@@ -40,7 +40,7 @@ const Homepage = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 <div class="${"flex flex-row items-center w-full h-full"}"><div class="${"basis-1/12 h-screen lg:h-full"}"></div>
     <div class="${"lg:basis-5/12 h-full basis-11/12"}"><p class="${"text-rose-100 text-7xl subpixel-antialiased font-bold tracking-wide"}">Riya Jain</p>
         <br>
-        <p class="${"pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide"}">Aspiring computer scientist at UIUC</p>
+        <p class="${"pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide"}">Computer scientist at UIUC</p>
         <br>
         <div class="${"flex flex-row"}"><button type="${"button"}" onclick="${"window.location.href='https://github.com/riyaj5246';"}" target="${"_blank"}" rel="${"noreferrer"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"}" clip-rule="${"evenodd"}"></path></svg>
                 <span class="${"sr-only"}">Github</span></button>
@@ -2230,12 +2230,102 @@ const TimelineItem = create_ssr_component(($$result, $$props, $$bindings, slots)
 const TimelineItem$1 = TimelineItem;
 _Timeline.Item = TimelineItem$1;
 const Timeline = _Timeline;
+const ECard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let { position } = $$props;
+  let { company } = $$props;
+  let { bullets } = $$props;
+  let { dates } = $$props;
+  if ($$props.position === void 0 && $$bindings.position && position !== void 0)
+    $$bindings.position(position);
+  if ($$props.company === void 0 && $$bindings.company && company !== void 0)
+    $$bindings.company(company);
+  if ($$props.bullets === void 0 && $$bindings.bullets && bullets !== void 0)
+    $$bindings.bullets(bullets);
+  if ($$props.dates === void 0 && $$bindings.dates && dates !== void 0)
+    $$bindings.dates(dates);
+  return `${validate_component(Timeline.Item, "Timeline.Item").$$render($$result, {}, {}, {
+    default: () => {
+      return `<p class="${"text-2xl font-bold tracking-wide text-rose-100"}">${escape(position)}
+    </p><p></p><p class="${"text-l font-extrabold tracking-wide text-teal-400"}">${escape(company)}
+    </p><p>${``}
+    
+    </p><p class="${"pt-1 text-s font-semibold tracking-wide text-rose-400"}">${escape(dates)}
+    </p><p>${`<button class="${"font-bold tracking-wide text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"}">Expand </button>`}
+    ${``}</p>`;
+    }
+  })}`;
+});
 const experience_svelte_svelte_type_style_lang = "";
 const css$6 = {
   code: ".experience.svelte-12e8q8j{background-color:rgb(64, 64, 64);height:auto}",
   map: null
 };
 const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  let roles = [
+    {
+      position: "Software Engineering Intern",
+      company: "SHEDD CAPITAL",
+      bullets: [
+        "Followed agile and test-driven development processes to deliver new features and aid in a full front-end app migration from Django templates to Vue.js and Django REST, implementing 25% of all page migrations.",
+        "Used Extract, Transform, Load (ETL) principles to maintain and add to a PostgreSQL database of 100,000+ companies from a variety of sources.",
+        "Optimized an internal webcrawler to scrape target company website body texts, leading to an increase of webcrawl efficacy from 60% to 80%, which resulted in a 130% improvement in the full-text search output."
+      ],
+      dates: "MAY 2023 - NOW"
+    },
+    {
+      position: "Software Developer",
+      company: "DISRUPTION LAB",
+      bullets: [
+        "Gies VR: Worked to develop an interactive Virtual Reality world using Unity, C#, Figma, and Git.",
+        "AI Essay: Created a tool using React, AWS, Python, and the OpenAI API to automate essay grading."
+      ],
+      dates: "AUG. 2022 - NOW"
+    },
+    {
+      position: "Research Assistant - SPIN Intern",
+      company: "NATIONAL CENTER FOR SUPERCOMPUTING APPLICATIONS",
+      bullets: [
+        "Utilized Python and Jupyter Notebooks to package and publish machine-learning models to an open-source interface called DLHub.",
+        "Contibuted to an increased level of accessibility to computational models created by scientific researchers in the fields of physics, astronomy, biology, chemistry, and more."
+      ],
+      dates: "DEC. 2022 - JUN. 2023"
+    },
+    {
+      position: "SIG Discovery Day Participant",
+      company: "SESQUEHANNA INTERNATIONAL GROUP, LLP",
+      bullets: [
+        "Attended a 2-day discovery day to network with students passionate about quantitative finance and employees at SIG.",
+        "Learned about the quantitative finance industry and the role of SWEs and Quant Traders at SIG."
+      ],
+      dates: "APR. 2023"
+    },
+    {
+      position: "Software Developer",
+      company: "YOUNG JAINS OF AMERICA",
+      bullets: [
+        "Designed & developed components of YJA mobile app used by 750+ individuals from around the country with Figma, Javascript, and React Native."
+      ],
+      dates: "JUN. 2021 - AUG. 2021"
+    },
+    {
+      position: "High School TARGET Program Intern",
+      company: "FERMI NATIONAL ACCELERATOR LABORATORY",
+      bullets: [
+        "Collaborated with a team to analyze data from beam particle monitors within Fermilab's particle accelerators to fine-tune the success-rate of physics experiments, presenting findings to a board of scientists.",
+        "Utilized Python libraries including Matplotlib, NumPy, and Pandas to efficiently clean, process, and visualize large tables of data.",
+        "Attended physics lectures, virtual lab tours, networking and scientific panels, and professional development workshops."
+      ],
+      dates: "JUN. 2021 - AUG. 2021"
+    },
+    {
+      position: "Computer Science Tutor",
+      company: "CODE NINJAS",
+      bullets: [
+        "Collaborated with other high schoolers to teach 30+ K-8th graders basic programming concepts, 5+ revise curriculums, and plan/run 5+ STEM summer camps."
+      ],
+      dates: "FEB. 2021 - JUL. 2021"
+    }
+  ];
   $$result.css.add(css$6);
   return `
 
@@ -2244,66 +2334,36 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
 
     <div class="${"flex flex-row items-center w-full h-full"}"><div class="${"hidden sm:inline basis-2/5 flex flex-col items-end w-full h-full"}"><div class="${"basis-3/4 my-20"}"><p class="${"pt-7 px-5 text-rose-100 text-right text-4xl md:text-6xl subpixel-antialiased font-bold tracking-wide"}">My Professional Experience
                 </p></div>
-            <div class="${"text-right basis-1/4"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1fRozOZ--ywygx8E6gdaWT2hGMRFgffIb/view?usp=sharing';"}" class="${"rounded-md bg-teal-600 hover:bg-teal-800 text-white font-bold py-5 px-5 my-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div></div>
+            <div class="${"text-right basis-1/4"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1K3TjK-Oa2pAxvjKGmF7AwzJudYazy5OK/view?usp=sharing';"}" class="${"rounded-md bg-teal-500 hover:bg-teal-800 text-white font-bold py-5 px-5 my-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div></div>
 
         <div class="${"basis-5/5 sm:basis-3/5 p-10"}">${validate_component(Timeline, "Timeline").$$render(
     $$result,
     {
       color: "#fb7185",
-      active: 3,
+      active: roles.length,
       lineWidth: 8,
       bulletSize: 35
     },
     {},
     {
       default: () => {
-        return `${validate_component(Timeline.Item, "Timeline.Item").$$render($$result, {}, {}, {
-          default: () => {
-            return `<p class="${"text-2xl font-bold tracking-wide text-rose-100"}">Software Engineering Intern
-                </p><p></p><p class="${"text-l font-extrabold tracking-wide text-teal-400"}">SHEDD CAPITAL
-                </p><p></p><ul class="${"list-disc list-inside text-l text-rose-100"}"><li>Working in a full-stack agile environment using Vue.js, Javascript, Django, Python, and AWS</li>
-                    <li>Maintaining &amp; updating a Postgress database and developing an internal dashboard containing aerospace industry information</li>
-                <ul><p class="${"py-2 text-s font-semibold tracking-wide text-rose-400"}">MAY 2023 - NOW
-                </p><p></p></ul></ul>`;
-          }
-        })}
-
-                ${validate_component(Timeline.Item, "Timeline.Item").$$render($$result, {}, {}, {
-          default: () => {
-            return `<p class="${"text-2xl font-bold tracking-wide text-rose-100"}">Software Developer
-                </p><p></p><p class="${"text-l font-extrabold tracking-wide text-teal-400"}">DISRUPTION LAB
-                </p><p></p><ul class="${"list-disc list-inside text-l text-rose-100"}"><li>Gies VR: Worked to develop an interactive Virtual Reality world using Unity, C#, Figma, and Git </li>
-                    <li>AI Essay: Created a tool using React, AWS, Python, and the OpenAI API to automate essay grading </li>
-                <ul><p class="${"py-2 text-s font-semibold tracking-wide text-rose-400"}">AUG. 2022 - NOW
-                </p><p></p></ul></ul>`;
-          }
-        })} 
-                
-                ${validate_component(Timeline.Item, "Timeline.Item").$$render($$result, {}, {}, {
-          default: () => {
-            return `<p class="${"text-2xl font-bold tracking-wide text-rose-100"}">Research Assistant
-                </p><p></p><p class="${"text-l font-extrabold tracking-wide text-teal-400"}">NATIONAL CENTER FOR SUPERCOMPUTING APPLICATIONS
-                </p><p></p><ul class="${"list-disc list-inside text-l text-rose-100"}"><li>Used python to package &amp; publish ML models to an open-source interface called DLHub </li>
-                    <li>Increased accessibility to computational models created for scientific research </li>
-                <p class="${"py-2 text-s font-semibold tracking-wide text-rose-400"}">DEC. 2022 - JUN. 2023
-                </p><p></p></ul>`;
-          }
-        })}
-
-                ${validate_component(Timeline.Item, "Timeline.Item").$$render($$result, {}, {}, {
-          default: () => {
-            return `<p class="${"text-2xl font-bold tracking-wide text-rose-100"}">High School TARGET Intern
-                </p><p></p><p class="${"text-l font-extrabold tracking-wide text-teal-400"}">FERMI NATIONAL ACCELERATOR LABORATORY
-                </p><p></p><ul class="${"list-disc list-inside text-l text-rose-100"}"><li>Worked with team to analyze data from beam particle monitors within accelerators to improve physics experiments and presented findings to board of scientists</li>
-                    <li>Utilized python libraries including Matplotlib, NumPy, and pandas </li>
-                <ul><p class="${"py-2 text-s font-semibold tracking-wide text-rose-400"}">JUN. 2021 - AUG. 2021
-                </p><p></p></ul></ul>`;
-          }
+        return `${each(roles, (role) => {
+          return `${validate_component(ECard, "ECard").$$render(
+            $$result,
+            {
+              position: role.position,
+              company: role.company,
+              bullets: role.bullets,
+              dates: role.dates
+            },
+            {},
+            {}
+          )}`;
         })}`;
       }
     }
   )}</div></div>
-    <div class="${"sm:hidden inline text-center"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1fRozOZ--ywygx8E6gdaWT2hGMRFgffIb/view?usp=sharing';"}" class="${"rounded-md bg-teal-600 hover:bg-teal-800 text-white font-bold py-5 px-5 mb-10 mx-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div>
+    <div class="${"sm:hidden inline text-center"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1K3TjK-Oa2pAxvjKGmF7AwzJudYazy5OK/view?usp=sharing';"}" class="${"rounded-md bg-teal-500 hover:bg-teal-800 text-white font-bold py-5 px-5 mb-10 mx-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div>
 </div>`;
 });
 const Swipe_svelte_svelte_type_style_lang = "";
@@ -2778,7 +2838,7 @@ const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 ${validate_component(Navbar, "Navbar").$$render($$result, {}, {}, {})}
 
 
-<div class="${"overflow-y-hidden"}"><section id="${"homepage"}"><div class="${"riya svelte-d1ojbo"}">${validate_component(Homepage, "Homepage").$$render($$result, {}, {}, {})}</div></section>
+<div class="${"overflow-hidden"}"><section id="${"homepage"}"><div class="${"riya svelte-d1ojbo"}">${validate_component(Homepage, "Homepage").$$render($$result, {}, {}, {})}</div></section>
     <section id="${"about"}">${validate_component(About, "About").$$render($$result, {}, {}, {})}</section>
 <section id="${"experience"}">${validate_component(Experience, "Experience").$$render($$result, {}, {}, {})}</section>
 <section id="${"projects"}">${validate_component(Projects, "Projects").$$render($$result, {}, {}, {})}</section>

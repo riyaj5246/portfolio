@@ -12,7 +12,7 @@
     <div class="lg:basis-5/12 h-full basis-11/12">
         <p class="text-rose-100 text-7xl subpixel-antialiased font-bold tracking-wide">Riya Jain</p>
         <br/>
-        <p class="pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide">Aspiring computer scientist at UIUC</p>
+        <p class="pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide">Computer scientist at UIUC</p>
         <br/>
         <div class="flex flex-row">
             <button type="button" onclick="window.location.href='https://github.com/riyaj5246';" target="_blank" rel="noreferrer" class="text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2">
