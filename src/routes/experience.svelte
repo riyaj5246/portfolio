@@ -49,7 +49,7 @@ teal 400: 4fd1c5
     }, 
 
     {
-        position: "High School TARGET Program Intern",
+        position: "TARGET Program Intern",
         company: "FERMI NATIONAL ACCELERATOR LABORATORY",
         bullets: ["Collaborated with a team to analyze data from beam particle monitors within Fermilab's particle accelerators to fine-tune the success-rate of physics experiments, presenting findings to a board of scientists.",
                 "Utilized Python libraries including Matplotlib, NumPy, and Pandas to efficiently clean, process, and visualize large tables of data.",
@@ -64,7 +64,13 @@ teal 400: 4fd1c5
         dates: "FEB. 2021 - JUL. 2021"
     }, 
     ]
-</script>
+
+    let isExpanded = false;
+    function toggleExpand() {
+        isExpanded = !isExpanded;
+    }
+
+    </script>
 
 <div class="experience">
     <div class="sm:hidden inline">
@@ -83,10 +89,13 @@ teal 400: 4fd1c5
                 <button onclick="window.location.href='https://drive.google.com/file/d/1K3TjK-Oa2pAxvjKGmF7AwzJudYazy5OK/view?usp=sharing';" class="rounded-md bg-teal-500 hover:bg-teal-800 text-white font-bold py-5 px-5 my-20"> 
                     <span class="text-l text-rose-100"> Check out my resume! </span>
                 </button>
+                
+
             </div>
         </div>
 
         <div class="basis-5/5 sm:basis-3/5 p-10">
+            {#if isExpanded}
             <Timeline color="#fb7185" active={roles.length} lineWidth={8} bulletSize={35}>
                 {#each roles as role}
                     <ECard
@@ -97,6 +106,29 @@ teal 400: 4fd1c5
                     />
                 {/each}
             </Timeline>
+            {/if}
+            {#if !isExpanded}
+            <Timeline color="#fb7185" active={4} lineWidth={8} bulletSize={35}>
+                {#each roles as role, i}
+                {#if i < 4}
+                    <ECard
+                    position={role.position}
+                    company={role.company}
+                    bullets={role.bullets}
+                    dates={role.dates}
+                    />
+                {/if}
+                {/each}
+            </Timeline>
+            {/if}
+            <button on:click={toggleExpand} class="rounded-md bg-rose-400 hover:bg-rose-500 mx-10 text-rose-100 font-bold py-4 px-5 my-10"> 
+                {#if !isExpanded}
+                <span class="text-l text-rose-100"> See more experiences </span>
+                {/if}
+                {#if isExpanded}
+                <span class="text-l text-rose-100"> Collapse experiences </span>
+                {/if}
+            </button>
         </div>
       
     </div>

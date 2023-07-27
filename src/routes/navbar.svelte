@@ -27,7 +27,7 @@
         <div class="flex items-center justify-between">
           <a
             class="md:text-xl font-bold text-rose-50 text-2xl hover:text-rose-200"
-            href="/home"
+            href="#homepage" on:click|preventDefault={scrollIntoView}
             >Riya Jain
           </a>
           <!-- Mobile menu button -->

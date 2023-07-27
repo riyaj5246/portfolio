@@ -18,7 +18,7 @@
     {company}
     <p>
     {#if isOpened}
-        <div>
+        <div class="">
             <ul class=" list-disc list-inside text-l text-rose-100">
                 {#each bullets as bullet, i}
                 <li class="py-1 font-light"> {bullet} </li>
@@ -31,9 +31,9 @@
     {dates}
     <p>
     {#if !isOpened}
-    <button on:click={toggle} class="font-bold tracking-wide text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"> Expand </button>
+    <button on:click={toggle} class="font-bold tracking-wide text-sm text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"> Expand </button>
     {/if}
     {#if isOpened}
-    <button on:click={toggle} class="font-bold tracking-wide text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"> Collapse </button>
+    <button on:click={toggle} class="font-bold tracking-wide text-sm text-rose-100 mt-1 bg-teal-600 rounded-lg px-2"> Collapse </button>
     {/if}
 </Timeline.Item>
