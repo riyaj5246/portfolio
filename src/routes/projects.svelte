@@ -30,6 +30,12 @@
     skills: "Swift | SwiftUI | Firebase | TensorflowLite | Python | Kaggle | Git | Figma",
     img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/dermavision.png?alt=media&token=e79521c5-e928-4e16-a123-994903fb0741&_gl=1*94w30t*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTQ5Ny4wLjAuMA..",
     title_size: "5xl"}, 
+
+    {name: "Aerocle",
+    description: "An internal system used at Shedd Capital containing comprehensive aerospace industry information of 100000+ companies, administrative internal task management, research project organization, and more functionality internal to Shedd Capital.",
+    skills: " Vue.JS | Django | Javascript | Python | Tailwind | HTML | AWS | Git",
+    img_path:"https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/aerocle-shedd-capital-ss-main.png?alt=media&token=a015f659-bcc6-4dc3-92cd-59f05d747b83",
+    title_size: "5xl"},
     
     {name: "BookWorm",
     description: "A platform to give users book recommendations based on genre and topic preferences. Users can save books they are interested in reading based on our curated recommendation algorithm and manual searching. ",
@@ -42,12 +48,6 @@
     skills: " Java | JavaFX | JSON | Git",
     img_path:"https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/covid.png?alt=media&token=180caa98-183f-49e2-aa21-a7531d2fbb8c&_gl=1*oqulbw*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTM3NS4wLjAuMA..",  
     title_size: "4xl"}, 
-
-    {name: "Aerocle",
-    description: "An internal system used at Shedd Capital containing comprehensive aerospace industry information of 100000+ companies, administrative internal task management, research project organization, and more functionality internal to Shedd Capital.",
-    skills: " Vue.JS | Django | Javascript | Python | Tailwind | HTML | AWS | Git",
-    img_path:"https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/aerocle-shedd-capital-ss-main.png?alt=media&token=a015f659-bcc6-4dc3-92cd-59f05d747b83",
-    title_size: "5xl"}
     ]
 
 </script>

@@ -64,7 +64,7 @@ const About = create_ssr_component(($$result, $$props, $$bindings, slots) => {
                I&#39;m highly passionate about harnessing the power of data to drive innovation and using machine learning to advance interdisciplinary developments. 
             </p>
 
-            <p class="${"md:leading-relaxed py-5 px-10 md:px-20 text-rose-100 font-light text-center text-xl md:text-3xl antialiased tracking-wide "}">On campus, I&#39;m a software developer at the <span class="${"text-rose-500 font-semibold hover:text-teal-400"}"><a href="${"https://www.uiucdisruptionlab.org/"}" target="${"_blank"}" rel="${"noreferrer"}">Disruption Lab</a></span>, a research assistant at the <span class="${"text-rose-400 hover:text-teal-400 font-semibold"}"><a href="${"https://spin.ncsa.illinois.edu/"}" target="${"_blank"}" rel="${"noreferrer"}">National Center for Supercomputing Applications</a></span>, and a <span class="${"text-rose-500 hover:text-teal-400 font-semibold"}"><a href="${"http://wcs.illinois.edu/"}" target="${"_blank"}" rel="${"noreferrer"}">Women in Computer Science</a></span> board member.
+            <p class="${"md:leading-relaxed py-5 px-10 md:px-20 text-rose-100 font-light text-center text-xl md:text-3xl antialiased tracking-wide "}">On campus, I&#39;m a project manager at the <span class="${"text-rose-500 font-semibold hover:text-teal-400"}"><a href="${"https://www.uiucdisruptionlab.org/"}" target="${"_blank"}" rel="${"noreferrer"}">Disruption Lab</a></span>, a research assistant at the <span class="${"text-rose-400 hover:text-teal-400 font-semibold"}"><a href="${"https://spin.ncsa.illinois.edu/"}" target="${"_blank"}" rel="${"noreferrer"}">National Center for Supercomputing Applications</a></span>, and the Corporate Outreach Co-Chair at the <span class="${"text-rose-500 hover:text-teal-400 font-semibold"}"><a href="${"http://wcs.illinois.edu/"}" target="${"_blank"}" rel="${"noreferrer"}">UIUC Women in Computer Science</a></span> chapter.
             </p>
         <div></div></div></div>
 </div>`;
@@ -2263,6 +2263,14 @@ const css$6 = {
 const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let roles = [
     {
+      position: "Project Manager",
+      company: "DISRUPTION LAB",
+      bullets: [
+        "OSF Healthcare: Leading a project to develop a software that utilizes smart contracts to protect patient privacy."
+      ],
+      dates: "AUG. 2022 - NOW"
+    },
+    {
       position: "Software Engineering Intern",
       company: "SHEDD CAPITAL",
       bullets: [
@@ -2270,7 +2278,7 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
         "Used Extract, Transform, Load (ETL) principles to maintain and add to a PostgreSQL database of 100,000+ companies from a variety of sources.",
         "Optimized an internal webcrawler to scrape target company website body texts, leading to an increase of webcrawl efficacy from 60% to 80%, which resulted in a 130% improvement in the full-text search output."
       ],
-      dates: "MAY 2023 - NOW"
+      dates: "MAY 2023 - JUL. 2023"
     },
     {
       position: "Software Developer",
@@ -2279,7 +2287,7 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
         "Gies VR: Worked to develop an interactive Virtual Reality world using Unity, C#, Figma, and Git.",
         "AI Essay: Created a tool using React, AWS, Python, and the OpenAI API to automate essay grading."
       ],
-      dates: "AUG. 2022 - NOW"
+      dates: "AUG. 2022 - AUG. 2023"
     },
     {
       position: "Research Assistant - SPIN Intern",
@@ -2727,6 +2735,13 @@ const Projects = create_ssr_component(($$result, $$props, $$bindings, slots) => 
       skills: " Java | JavaFX | JSON | Git",
       img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/covid.png?alt=media&token=180caa98-183f-49e2-aa21-a7531d2fbb8c&_gl=1*oqulbw*_ga*NDM2Nzc2MjY5LjE2ODY0NTA0NTM.*_ga_CW55HF8NVT*MTY4NjUwOTI0NC4yLjEuMTY4NjUwOTM3NS4wLjAuMA..",
       title_size: "4xl"
+    },
+    {
+      name: "Aerocle",
+      description: "An internal system used at Shedd Capital containing comprehensive aerospace industry information of 100000+ companies, administrative internal task management, research project organization, and more functionality internal to Shedd Capital.",
+      skills: " Vue.JS | Django | Javascript | Python | Tailwind | HTML | AWS | Git",
+      img_path: "https://firebasestorage.googleapis.com/v0/b/trialproject2-74281.appspot.com/o/aerocle-shedd-capital-ss-main.png?alt=media&token=a015f659-bcc6-4dc3-92cd-59f05d747b83",
+      title_size: "5xl"
     }
   ];
   $$result.css.add(css$1);
