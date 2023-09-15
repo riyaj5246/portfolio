@@ -9,12 +9,19 @@ teal 400: 4fd1c5
 
   let roles = [ 
     {
+        position: "Project Manager",
+        company: "DISRUPTION LAB",
+        bullets: ["OSF Healthcare: Leading a project to develop a software that utilizes smart contracts to protect patient privacy."],
+        dates: "AUG. 2022 - NOW"
+    }, 
+    
+    {
         position: "Software Engineering Intern",
         company: "SHEDD CAPITAL",
         bullets: ["Followed agile and test-driven development processes to deliver new features and aid in a full front-end app migration from Django templates to Vue.js and Django REST, implementing 25% of all page migrations.",
                 "Used Extract, Transform, Load (ETL) principles to maintain and add to a PostgreSQL database of 100,000+ companies from a variety of sources.",
                 "Optimized an internal webcrawler to scrape target company website body texts, leading to an increase of webcrawl efficacy from 60% to 80%, which resulted in a 130% improvement in the full-text search output."],
-        dates: "MAY 2023 - NOW"
+        dates: "MAY 2023 - JUL. 2023"
     }, 
     
     {
@@ -22,7 +29,7 @@ teal 400: 4fd1c5
         company: "DISRUPTION LAB",
         bullets: ["Gies VR: Worked to develop an interactive Virtual Reality world using Unity, C#, Figma, and Git.", 
                 "AI Essay: Created a tool using React, AWS, Python, and the OpenAI API to automate essay grading."],
-        dates: "AUG. 2022 - NOW"
+        dates: "AUG. 2022 - AUG. 2023"
     }, 
     
     {

@@ -13,7 +13,7 @@
             </p>
 
             <p class=" md:leading-relaxed py-5 px-10 md:px-20 text-rose-100 font-light text-center text-xl md:text-3xl antialiased tracking-wide ">
-                On campus, I'm a software developer at the <span class="text-rose-500 font-semibold hover:text-teal-400"> <a href="https://www.uiucdisruptionlab.org/" target="_blank" rel="noreferrer">Disruption Lab</a></span>, a research assistant at the <span class="text-rose-400 hover:text-teal-400 font-semibold"><a href="https://spin.ncsa.illinois.edu/"  target="_blank" rel="noreferrer">National Center for Supercomputing Applications</a></span>, and a <span class="text-rose-500 hover:text-teal-400 font-semibold"><a href="http://wcs.illinois.edu/"  target="_blank" rel="noreferrer">Women in Computer Science</a></span> board member.
+                On campus, I'm a project manager at the <span class="text-rose-500 font-semibold hover:text-teal-400"> <a href="https://www.uiucdisruptionlab.org/" target="_blank" rel="noreferrer">Disruption Lab</a></span>, a research assistant at the <span class="text-rose-400 hover:text-teal-400 font-semibold"><a href="https://spin.ncsa.illinois.edu/"  target="_blank" rel="noreferrer">National Center for Supercomputing Applications</a></span>, and the Corporate Outreach Co-Chair at the <span class="text-rose-500 hover:text-teal-400 font-semibold"><a href="http://wcs.illinois.edu/"  target="_blank" rel="noreferrer"> UIUC Women in Computer Science</a></span> chapter.
             </p>
         <div>
 

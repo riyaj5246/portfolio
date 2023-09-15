@@ -14,7 +14,7 @@ const Navbar = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   
 
   <div class="${"outerBar svelte-wp9iam"}"><div class="${"navbar svelte-wp9iam"}">
-      <nav class="${"container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"}"><div class="${"flex items-center justify-between"}"><a class="${"md:text-xl font-bold text-rose-50 text-2xl hover:text-rose-200"}" href="${"/home"}">Riya Jain
+      <nav class="${"container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"}"><div class="${"flex items-center justify-between"}"><a class="${"md:text-xl font-bold text-rose-50 text-2xl hover:text-rose-200"}" href="${"#homepage"}">Riya Jain
           </a>
           
           
@@ -40,13 +40,13 @@ const Homepage = create_ssr_component(($$result, $$props, $$bindings, slots) => 
 <div class="${"flex flex-row items-center w-full h-full"}"><div class="${"basis-1/12 h-screen lg:h-full"}"></div>
     <div class="${"lg:basis-5/12 h-full basis-11/12"}"><p class="${"text-rose-100 text-7xl subpixel-antialiased font-bold tracking-wide"}">Riya Jain</p>
         <br>
-        <p class="${"pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide"}">Computer scientist at UIUC</p>
+        <p class="${"pt-3 text-rose-100 text-4xl subpixel-antialiased font-light tracking-wide"}">Computer Scientist at UIUC</p>
         <br>
-        <div class="${"flex flex-row"}"><button type="${"button"}" onclick="${"window.location.href='https://github.com/riyaj5246';"}" target="${"_blank"}" rel="${"noreferrer"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"}" clip-rule="${"evenodd"}"></path></svg>
+        <div class="${"flex flex-row"}"><button type="${"button"}" onclick="${"window.location.href='https://github.com/riyaj5246';"}" target="${"_blank"}" rel="${"noreferrer"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"}" clip-rule="${"evenodd"}"></path></svg>
                 <span class="${"sr-only"}">Github</span></button>
-            <button type="${"button"}" onclick="${"window.location.href='https://www.linkedin.com/in/riya-jain-uofi/';"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"}" clip-rule="${"evenodd"}"></path></svg>
+            <button type="${"button"}" onclick="${"window.location.href='https://www.linkedin.com/in/riya-jain-uofi/';"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"}" clip-rule="${"evenodd"}"></path></svg>
                 <span class="${"sr-only"}">Linkedin</span></button>
-            <button type="${"button"}" onclick="${"window.location.href='mailto:riyajj2@illinois.edu';"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 shadow-lg shadow-teal-500/50 dark:shadow-lg dark:shadow-teal-800/80 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"}" clip-rule="${"evenodd"}"></path></svg>
+            <button type="${"button"}" onclick="${"window.location.href='mailto:riyajj2@illinois.edu';"}" class="${"text-white bg-gradient-to-r from-teal-400 via-teal-500 to-teal-600 hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-teal-300 dark:focus:ring-teal-700 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2"}"><svg aria-hidden="${"true"}" class="${"w-6 h-6"}" fill="${"currentColor"}" viewBox="${"0 0 24 24"}" xmlns="${"http://www.w3.org/2000/svg"}"><path fill-rule="${"evenodd"}" d="${"M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"}" clip-rule="${"evenodd"}"></path></svg>
                 <span class="${"sr-only"}">Email</span></button></div></div>
     <div class="${"lg:basis-6/12 h-full basis-0"}">
         <img class="${"pfp svelte-1kgd3dr"}"${add_attribute("src", Picture, 0)}></div>
@@ -2250,7 +2250,7 @@ const ECard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
     </p><p>${``}
     
     </p><p class="${"pt-1 text-s font-semibold tracking-wide text-rose-400"}">${escape(dates)}
-    </p><p>${`<button class="${"font-bold tracking-wide text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"}">Expand </button>`}
+    </p><p>${`<button class="${"font-bold tracking-wide text-sm text-rose-100 mt-1 bg-teal-400 rounded-lg px-2"}">Expand </button>`}
     ${``}</p>`;
     }
   })}`;
@@ -2308,7 +2308,7 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
       dates: "JUN. 2021 - AUG. 2021"
     },
     {
-      position: "High School TARGET Program Intern",
+      position: "TARGET Program Intern",
       company: "FERMI NATIONAL ACCELERATOR LABORATORY",
       bullets: [
         "Collaborated with a team to analyze data from beam particle monitors within Fermilab's particle accelerators to fine-tune the success-rate of physics experiments, presenting findings to a board of scientists.",
@@ -2336,19 +2336,20 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
                 </p></div>
             <div class="${"text-right basis-1/4"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1K3TjK-Oa2pAxvjKGmF7AwzJudYazy5OK/view?usp=sharing';"}" class="${"rounded-md bg-teal-500 hover:bg-teal-800 text-white font-bold py-5 px-5 my-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div></div>
 
-        <div class="${"basis-5/5 sm:basis-3/5 p-10"}">${validate_component(Timeline, "Timeline").$$render(
+        <div class="${"basis-5/5 sm:basis-3/5 p-10"}">${``}
+            ${`${validate_component(Timeline, "Timeline").$$render(
     $$result,
     {
       color: "#fb7185",
-      active: roles.length,
+      active: 4,
       lineWidth: 8,
       bulletSize: 35
     },
     {},
     {
       default: () => {
-        return `${each(roles, (role) => {
-          return `${validate_component(ECard, "ECard").$$render(
+        return `${each(roles, (role, i) => {
+          return `${i < 4 ? `${validate_component(ECard, "ECard").$$render(
             $$result,
             {
               position: role.position,
@@ -2358,11 +2359,13 @@ const Experience = create_ssr_component(($$result, $$props, $$bindings, slots) =
             },
             {},
             {}
-          )}`;
+          )}` : ``}`;
         })}`;
       }
     }
-  )}</div></div>
+  )}`}
+            <button class="${"rounded-md bg-rose-400 hover:bg-rose-500 mx-10 text-rose-100 font-bold py-4 px-5 my-10"}">${`<span class="${"text-l text-rose-100"}">See more experiences </span>`}
+                ${``}</button></div></div>
     <div class="${"sm:hidden inline text-center"}"><button onclick="${"window.location.href='https://drive.google.com/file/d/1K3TjK-Oa2pAxvjKGmF7AwzJudYazy5OK/view?usp=sharing';"}" class="${"rounded-md bg-teal-500 hover:bg-teal-800 text-white font-bold py-5 px-5 mb-10 mx-20"}"><span class="${"text-l text-rose-100"}">Check out my resume! </span></button></div>
 </div>`;
 });
